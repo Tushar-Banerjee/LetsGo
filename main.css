@@ -1,0 +1,126 @@
+h3 {text-align:center;
+    font-size:2vw;
+	font-family: 'Varela Round', sans-serif;}
+
+th,td { padding:15px;
+	text-align:center;
+	color:#032E5E;
+	font-family: 'Varela Round', sans-serif;
+
+	}
+
+th { background-color:#C6DDF6;
+     color:#032E5E;}
+
+caption { background-color:#78B0F0;
+	color:#032E5E;
+	text-align:center;
+	font-size:18px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+table { border-radius:10px;
+	margin:20px;
+	padding:20px;
+	overflow:auto;}
+
+#myCarousel { margin:10px;
+		padding:5px;}
+
+p{font-family: 'Varela Round', sans-serif;
+  text-align:justify;}
+
+#heading	{font-size:20px;
+			margin:10px;}
+
+#heading2	{font-size:18px;
+		margin:10px;}
+
+ul,li	{font-family: 'Varela Round', sans-serif;
+		}
+
+#signupHeading	{font-family: 'Varela Round', sans-serif;
+		font-size:28px;
+		margin-top:15px;}
+
+
+
+
+#main	{ overflow: auto;
+	margin-top:10px;
+	height:500px;
+	text-align:justify;}
+
+#pforcar { font-size:24px;
+	text-align:center;}
+
+#loginButton {
+	background-color:#4CAF50;
+	color:white;
+	padding: 8px 16px;
+	width:100%;
+	margin-top: 20px;
+	cursor:pointer;
+}
+
+#textBelowLogin { 
+		margin-top:10px;
+			}
+
+label	{font-family: 'Varela Round', sans-serif;}
+
+#formRow	{margin-top:15px;}
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+#back {
+
+	
+ background-image:url("https://i.pinimg.com/originals/f6/54/89/f654898cf7cb9628361af01c3a7ca80e.jpg");
+ margin:10px 0px 10px 0px;
+ background-repeat:repeat-y;
+ overflow: auto;
+ overflow: auto;
+ background-size:cover;
+ height:500px;
+ text-align:justify;
+	
+}
+
+div.trans {
+	margin: 30px;
+  	
+  	
+  	opacity: 0.8;
+ 	 filter: alpha(opacity=60); 
+}
+
+#foodimg {height:150px; width:150px;}
+
+div.box	{
+
+	border:#ccc 1px solid;
+	width:100%;
+	padding:10px;
+	margin:5px;
+	display:block;
+	box-sizing:border-box;
+	height:600px;
+}
+
+#boximg	{
+	height:250px;
+	width=:250px;
+	border: 1px solid;
+	margin-bottom:10px;
+	
+}

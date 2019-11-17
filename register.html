@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LetsGo!!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTPZ0ehBmnAU2lsXU9T4KD54AX7zmh-fcJJ59NmD4SinekqMR6A">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css" tpe="text/css">
+
+<style>
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div class="row">
+
+		<div class="col-xs-2">
+
+			<img class="img-responsive" src="http://images.clipartpanda.com/airline-clipart-airplane-clipart.jpg" alt="Pic1" height=180 width=250 style="margin:35px">
+		</div>
+
+	<div class="col-xs-8">
+		<center>
+		<img class="img-responsive" src="http://www.letsgo-saipan.com/wp-content/uploads/2018/03/letsgo-saipan-finale-logo.png" height=150 width=350>
+		<h3>Life is short, Live it to it's best...</h3>
+		<hr>
+		 </center>
+	</div>
+
+	<div class="col-xs-2">
+		<img class="img-responsive" src="https://i.pinimg.com/originals/44/ec/96/44ec96ecef344e93f9e8ca710cbc2e59.jpg" alt="Pic1">
+	</div>
+
+</div>
+
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Lets Go!!!</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="index.html">Home</a></li>
+<li><a href="travel.html">Travel</a></li>
+<li><a href="food.html">Food</a></li>
+<li><a href="register.html">Register</a></li>
+</ul>
+
+</div>
+</nav>
+
+
+<div class="row">
+		<div class="col-xs-1" style="margin:10px;">
+		</div>
+		<div class="col-xs-4" style="margin:10px;">
+		
+		<img src="pic123.jpg" class="img-responsive" style="height:655px; width:400px;">
+
+		</div>
+
+
+
+		<div class="col-xs-5"  style="margin-top:8px; background-color:lavender;">
+		<form name="login">
+		
+		<p id="signupHeading">Sign Up</p>
+		<hr>
+
+		<div class="row" id="formRow">
+
+			<div class="col-xs-6">
+				<input type="text" class="form-control" placeholder="First Name" required>
+			</div>
+
+			<div class="col-xs-6">
+				<input type="text" class="form-control" placeholder="Last Name" required>
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+			<div class="col-xs-8">
+				<input type="text" name="userid" class="form-control" placeholder="User Id eg: richard@gmail.com" required>
+			</div>
+		</div>
+		
+		<div class="row" id="formRow">
+			<div class="col-xs-8">
+				<input type="password" class="form-control" placeholder="Password" required>
+				<span class="help-block">Passwords must contain at least six characters, including uppercase, lowercase letters and numbers.</span>
+			</div>
+		</div>
+		
+		<div class="row" id="formRow">
+			<div class="col-xs-8">
+				<input type="password" class="form-control" placeholder="Confirm-Password" required>
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+			<div class="col-xs-6">
+				<input type="number" class="form-control" placeholder="Primary Number" required>
+			</div>
+
+			<div class="col-xs-6">
+				<input type="text" class="form-control" placeholder="Alternate Number" required>
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+			<div class="col-xs-8">
+				<input type="text" class="form-control" placeholder="Address Line 1" required>
+			</div>
+		</div>
+		<div class="row" id="formRow">
+			<div class="col-xs-8">
+				<input type="text" class="form-control" placeholder="Address Line 2">
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+			<div class="col-xs-4">
+				<input type="text" class="form-control" placeholder="City">
+			</div>
+
+			<div class="col-xs-4">
+				<input type="text" class="form-control" placeholder="State">
+			</div>
+
+			<div class="col-xs-4">
+				<input type="number" class="form-control" placeholder="PIN Code">
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+			<p style="margin-left:15px;">Security Questions</p>
+			<div class="col-xs-6">
+				<select class="form-control" placeholder="select">
+					<option>Favourite Sports</option>
+					<option>Your Nick Name</option>
+					<option>Yout Mothers Maiden Name</option>
+					<option>Your Birth City</option>
+					<option>Your Favourite Super Hero</option>
+				</select>
+			</div>
+
+			<div class="col-xs-6">
+				<input type="text" placeholder="Answer...." class="form-control" required>
+			</div>
+		</div>
+
+		<div class="row" id="formRow">
+		<button class="btn btn-primary" type="submit" onclick="ValidateEmail(document.login.userid)" style="margin-bottom:10px; margin-left:15px;">Submit</button>
+		</div>
+		
+		
+		 	
+
+		</form>
+		
+
+		</div>
+
+
+
+
+
+
+		
+</div>
+
+			<div class="footer" style="background-color:lavender; margin:10px;">
+			<div class="row">
+				<div class="col-xs-2">
+
+<img src="data:image/png;base64,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" class="img-responsive" 
+style="width:25px; height:25px; margin:30px;">
+
+<img class="img-responsive" src="https://freeiconshop.com/wp-content/uploads/edd/twitter-solid.png"
+style="width:25px; height:25px; margin:30px;"> 
+
+
+<img class="img-responsive" src="https://www.shareicon.net/download/2016/08/01/639924_media.svg"
+style="width:25px; height:25px; margin:30px;">
+
+				</div>
+				<div class="col-xs-6">
+	
+	<p id="heading">About Us</p>
+	<p>Lets Go is a private tourism company which aims to provide best travel, fooding and staying favilities to its fellow cunstomers.
+With its expert tourist guides we try to make the trip as memorable as we can. With us you van experience on of the best tours of your lifetime at va resonable prize.
+Then, What are you thinking for? Reach us and let the journey begin.</p>
+<p><span class="glyphicon glyphicon-copyright-mark"></span> 2019 Privacy Policy</p>	
+
+				</div>
+				
+				<div class="col-xs-3">
+					<div class="row">
+						<div class="col-xs-4">
+							<p id="heading2">Destinations</p>
+								<ul>
+								<li>Shimla</li>
+								<li>Darjeeling</li>
+								<li>Kerela</li>
+								<li>Rajasthan</li>
+								<li>Varanasi</li>
+								<li>Kedarnath</li>
+								<li><a href="#">Click here </a></li></ul>
+	
+						</div>
+
+						<div class="col-xs-8">
+							<p id="heading2" style="margin-left:45px;">Important Links</p>
+								<ul style="margin-left:45px;">
+								<li>Hotels</li>
+								<li>Tree House</li>
+								<li>Jungle Safari</li>
+								<li>Road Maps</li>
+								<li>Fooding</li>
+								<li>Trecks</li>
+								<li>Underwater Diving</li></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+</div>
+
+<script src="js/email-validation.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
